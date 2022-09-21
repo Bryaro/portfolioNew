@@ -1,0 +1,65 @@
+.top-container {
+    height: 65px;
+}
+
+.navbar-brand {
+        animation-name: logo;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+}
+@keyframes logo {
+    0%   {color:red;}
+    25%  {color:yellow;}
+    50%  {color:blue;}
+    75%  {color:green;}
+    100% {color:red;}
+  }
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.code-logo {
+    width: 40px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.img-aboutme {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-lg-4 {
+    display: flex;
+    justify-content: center;
+    size: 50%;
+    margin-left: -15px;
+}
+
+
+input, textarea, .submit{
+    margin: 10px auto 10px auto;
+    display: block;
+    width: 60%;
+}
+   
+button {
+
+}
