@@ -1,5 +1,5 @@
-.top-container {
-    height: 65px;
+body {
+    padding-top: 15px;
 }
 
 .navbar-brand {
@@ -46,6 +46,11 @@
     justify-content: center;
 }
 
+.text-container {
+    display: flex;
+    align-items: center;
+}
+
 .col-lg-4 {
     display: flex;
     justify-content: center;
@@ -54,12 +59,19 @@
 }
 
 
-input, textarea, .submit{
+ul, p {
+    width: 80%;
+    margin: 10px 20% 10px 20%;
+}
+
+input, textarea, #send-btn {
     margin: 10px auto 10px auto;
     display: block;
     width: 60%;
 }
-   
-button {
 
+footer {
+    text-align: center;
+    padding-top: 30px;
+    height: 90px;
 }
