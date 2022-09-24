@@ -44,12 +44,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 200px;
+
 }
 
-.text-container {
-    display: flex;
-    align-items: center;
-}
 
 .col-lg-4 {
     display: flex;
@@ -74,4 +72,15 @@ footer {
     text-align: center;
     padding-top: 30px;
     height: 90px;
+}
+
+
+@media screen and (min-width:768px) {
+
+    .about {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+
 }
